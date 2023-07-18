@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-description {
+    color: #534C64;
+    font-size: 20px;
+}
+
+nav {
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-gamer {
+    display: flex;
+    padding-left: 240px;
+    gap: 10px;
+    align-items: center;
+}
+
+#logo {
+    width: 86.041px;
+    height: 40px;
+}
+
+.title {
+    color: #0B0223;
+    font-size: 45px;
+
+}
+
+.color-G {
+    color: #FF42A5;
+
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 240px;
+    text-decoration: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.icons-section {
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+    border-radius: 8px;
+    /* background: rgba(11, 2, 35, 0.10); */
+}
+
+/* nav section ends here */
+.banner-section {
+    /* width: 901px;
+    height: 700px; */
+    display: flex;
+
+}
+
+.banner-content {
+    width: 701px;
+    height: 500px;
+    /* text-align: center; */
+    padding: 148px 240px;
+    margin-left: 50px;
+
+}
+
+.banner-content h3 {
+    color: #0B0223;
+    font-size: 48px;
+
+}
+
+.banner-content h1 {
+    font-size: 95px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content p {
+    color: #534C64;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.banner-btn {
+    padding-top: 20px;
+    /* gap: 50px; */
+}
+
+.btn-primary {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #FF42A5;
+}
+
+.btn {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.banner-img {
+    margin-right: 240px;
+}
+
+/* banner section ends here */
+.online-games-container {
+    width: 100%;
+    height: 700px;
+    background: #FFF;
+}
+
+.online-games-content {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.online-games-content h2 {
+    color: #0B0223;
+    font-size: 48px;
+    padding-bottom: 12px;
+
+
+}
+
+.online-games-content p {
+    padding-bottom: 20px;
+}
+
+#funny {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+
+}
+
+.games-img {
+    display: flex;
+    margin: 0 450px;
+
+    gap: 24px;
+    padding-top: 20px;
+
+
+
+}
+
+.games-img p {
+    padding-top: 10px;
+}
+
+.games-img img {
+    width: 342px;
+    height: 400px;
+
+}
+
+/* online-games-container end here */
+.free-play-container {
+    margin: 0 430px 240px;
+    padding: 50px 140px;
+    /* border: 2px solid purple; */
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+}
+
+.free-play-content {
+    /* border: 2px solid red; */
+    text-align: center;
+    padding-top: 190px;
+    margin-left: 0px;
+    /* align-items: center; */
+
+}
+
+.free-play-title {
+    color: #0B0223;
+    font-size: 48px;
+    padding-bottom: 10px;
+
+}
+
+#half-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#half-title-1{
+    padding-left: 100px ;
+}
+
+.free-play-content-img {}
