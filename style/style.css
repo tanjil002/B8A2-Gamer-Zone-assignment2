@@ -57,14 +57,16 @@ nav {
     color: #3C354F;
 }
 
-.icons-section {
-    width: 8%;
+.icons-section{
+    width: 10%;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
     display: flex;
     justify-content: space-between;
     gap: 15px;
     align-items: center;
-    border-radius: 8px;
-    /* background: rgba(11, 2, 35, 0.10); */
+    /* border-radius: 8px; */
+    background: rgba(11, 2, 35, 0.10);
 }
 
 /* nav section ends here */
@@ -130,7 +132,13 @@ nav {
 .banner-img img {
     width: 701px;
     height: 650px;
-    padding-right: 240px;
+    padding-right: 300px;
+}
+.banner-img{
+    height: 800px;
+    width: 400px;
+    padding-right: 200px;
+    margin-right: 300px;
 }
 
 /* banner section ends here */
@@ -191,7 +199,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     gap: 200px;
-    margin-bottom: 0;
+    
 }
 
 .free-play-content {
@@ -237,6 +245,7 @@ padding-left: 150px;
 .games-container {
     height: 300px;
     padding-left: 50px;
+    width: 200px;
 }
 
 .games-icon-name {
@@ -267,8 +276,8 @@ padding-left: 150px;
 }
 
 .games-icon-name div:hover {
-    width: 150px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     color: brown;
     border: 1px solid #FF42A5;
     border-radius: 50px;
@@ -317,18 +326,18 @@ footer {
 .sponsor img {
     width: 30px;
     height: 30px;
-    padding: 30px;
-    padding-bottom: 30px;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 50px;
+    top: 20px;
 
 
 }
 .sponsor button{
-    border-radius: 30%;
+    border-radius: 20%;
     text-align: center;
     background-color: #534C64;
-    width: 150px;
+    width: 100px;
+    height: 60px;
 }
 
 .security ul {
@@ -350,30 +359,3 @@ footer {
     margin-left: 0px;
     align-items: center;
 }
-
-
-
-/* footer div{
-    display: flex;
-    gap: 20px;
-    text-align: center;
-}
- .foot-gamer{
-    padding: 100px 835px;
-
-    
-}
-.other-items {
-    padding-left: 563px;
-}
-
-.sponsor {
-    width: 40px;
-    height: 40px;
-    padding-left: 1000px;
-}
-.security ul{
-    display: flex;
-    padding-left: 920px;
-
-} */
