@@ -127,8 +127,10 @@ nav {
     background: #4EC5F7;
 }
 
-.banner-img {
-    margin-right: 240px;
+.banner-img img {
+    width: 701px;
+    height: 650px;
+    padding-right: 240px;
 }
 
 /* banner section ends here */
@@ -148,9 +150,7 @@ nav {
     font-size: 48px;
     padding-bottom: 12px;
 
-
 }
-
 .online-games-content p {
     padding-bottom: 20px;
 }
@@ -161,42 +161,37 @@ nav {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 48px;
-
 }
 
 .games-img {
+    
+    width: 80%;
+    
     display: flex;
-    margin: 0 450px;
+    padding: 0 100px;
 
     gap: 24px;
     padding-top: 20px;
-
-
 
 }
 
 .games-img p {
     padding-top: 10px;
 }
-
 .games-img img {
-    width: 342px;
-    height: 400px;
-
+    size: 10%
 }
 
 /* online-games-container end here */
 .free-play-container {
-    margin: 0 430px 240px;
-    padding: 50px 140px;
-    /* border: 2px solid purple; */
+    padding: 0px 140px;
     display: flex;
     justify-content: space-evenly;
     gap: 200px;
+    margin-bottom: 0;
 }
 
 .free-play-content {
-    /* border: 2px solid red; */
     text-align: center;
     padding-top: 190px;
     margin-left: 0px;
@@ -206,8 +201,9 @@ nav {
 
 .free-play-title {
     color: #0B0223;
-    font-size: 48px;
+    font-size: 20px;
     padding-bottom: 10px;
+    
 
 }
 
@@ -219,17 +215,27 @@ nav {
 }
 
 #half-title-1 {
-    padding-left: 100px;
+    
 }
 
-.free-play-content-img {}
+.free-play-content-img {
+padding-left: 150px;
+}
+.badge-img{
+    
+    width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+    right: 200px;
+    
+}
 
 /* free play container ends here */
 .games-container {
-    border: 1px solid red;
     height: 300px;
-    padding: 70px 280px;
-
+    padding-left: 50px;
 }
 
 .games-icon-name {
@@ -267,4 +273,106 @@ nav {
     border-radius: 50px;
     background: #FFF;
 }
+
 /* games container ends here */
+footer {
+    height: 500px;
+    
+   
+    background: #0B0223;
+    color: #FFF;
+    text-align: center;
+
+}
+
+.foot-gamer {
+    padding-top: 100px;
+    display: flex;
+    margin-left: 700px;
+    padding-bottom: 20px;
+    align-items: center;
+
+}
+
+#amer {
+    color: wheat;
+}
+
+.other-items ul {
+    display: flex;
+    margin-left: 400px;
+    gap: 60px;
+    padding-bottom: 20px;
+    align-items: center;
+
+
+}
+
+.other-items a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.sponsor img {
+    width: 30px;
+    height: 30px;
+    padding: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    padding-left: 100px;
+
+
+}
+.sponsor button{
+    border-radius: 30%;
+    text-align: center;
+    background-color: #534C64;
+    width: 150px;
+}
+
+.security ul {
+    display: flex;
+    margin-left: 400px;
+    gap: 60px;
+    padding-bottom: 20px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.security a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.copy {
+    padding-top: 10px;
+    margin-left: 0px;
+    align-items: center;
+}
+
+
+
+/* footer div{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+ .foot-gamer{
+    padding: 100px 835px;
+
+    
+}
+.other-items {
+    padding-left: 563px;
+}
+
+.sponsor {
+    width: 40px;
+    height: 40px;
+    padding-left: 1000px;
+}
+.security ul{
+    display: flex;
+    padding-left: 920px;
+
+} */
