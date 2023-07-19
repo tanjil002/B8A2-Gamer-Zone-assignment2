@@ -174,7 +174,10 @@ nav {
     padding-top: 20px;
 
 }
-
+.games-img img:hover{
+    background-color: gray;
+    
+}
 .games-img p {
     padding-top: 10px;
 }
@@ -214,9 +217,7 @@ nav {
     -webkit-text-fill-color: transparent;
 }
 
-#half-title-1 {
-    
-}
+
 
 .free-play-content-img {
 padding-left: 150px;

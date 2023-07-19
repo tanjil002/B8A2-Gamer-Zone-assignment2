@@ -1,13 +1,58 @@
 @media screen and (max-width: 576px) {
-    header{
-        
+    .nav-gamer{
+        flex-direction: column;
     }
-    nav,
     .nav-items{
+        flex-direction: column;
+    }
+    nav{
         flex-direction: column;
         
     }
+    .banner-section{
+        flex-direction: column-reverse;
+        
+    }
+    .online-games-content{
+        padding: 20px;
+    }
+    .games-img{
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+    .free-play-container{
+        flex-direction: column;
+    }
+    .games-container{
+        flex-direction: column;
+    }
+    .games-icon-name div{
+        flex-direction: column;
+    }
+    .games-icon-name{
+        bottom: 200px;
+        flex-direction: column;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px;
+    }
+    .footer{
+        top: 50px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 960px){
+    nav,
+    .nav-gamer,
     .nav-items{
-        text-align: center;
+        flex-direction: column;
+    }
+    .banner-section{
+        flex-direction: column-reverse;
+    }
+    .online-games-content{
+        padding: 20px;
+    }
+    .games-img{
+        flex-direction: column;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
